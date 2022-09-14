@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.tyss.blueStone.testScript.BlueStoneSecondTask">
+      <class name="com.tyss.blueStone.testScript.BlueStoneTest">
         <methods>
           <include name="beforeSuite"/>
+          <include name="blueStoneTest"/>
           <include name="beforeClassTest"/>
           <include name="afterSuiteTest"/>
           <include name="beforeMethodTest"/>
           <include name="afterMethodTest"/>
-          <include name="blueStoneSecondTask"/>
           <include name="afterClassTest"/>
         </methods>
-      </class> <!-- com.tyss.blueStone.testScript.BlueStoneSecondTask -->
+      </class> <!-- com.tyss.blueStone.testScript.BlueStoneTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
