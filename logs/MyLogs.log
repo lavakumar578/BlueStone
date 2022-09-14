@@ -1,0 +1,27 @@
+[INFO ] 2022-09-14 09:39:06.696 [main] BaseClass -  excel is opened 
+[INFO ] 2022-09-14 09:39:09.564 [main] BaseClass -  browser launched 
+[INFO ] 2022-09-14 09:39:36.528 [main] BaseClass - size is  9size is validated 
+[INFO ] 2022-09-14 09:39:36.528 [main] BaseClass - Test script is passed
+[INFO ] 2022-09-14 09:39:37.131 [main] BaseClass -  browser is closed 
+[INFO ] 2022-09-14 09:39:38.600 [main] BaseClass -  browser launched 
+[INFO ] 2022-09-14 09:40:02.146 [main] BaseClass - Test script is passed
+[INFO ] 2022-09-14 09:40:02.629 [main] BaseClass -  browser is closed 
+[INFO ] 2022-09-14 09:40:03.933 [main] BaseClass -  excel closed 
+[INFO ] 2022-09-14 09:52:09.165 [main] BaseClass -  excel is opened 
+[INFO ] 2022-09-14 09:52:11.421 [main] BaseClass -  browser launched 
+[INFO ] 2022-09-14 09:52:20.541 [main] BaseClass -  browser is closed 
+[INFO ] 2022-09-14 09:52:20.849 [main] BaseClass -  excel closed 
+[INFO ] 2022-09-14 09:53:57.867 [main] BaseClass -  excel is opened 
+[INFO ] 2022-09-14 09:54:00.255 [main] BaseClass -  browser launched 
+[INFO ] 2022-09-14 09:54:10.286 [main] BaseClass -  browser is closed 
+[INFO ] 2022-09-14 09:54:10.558 [main] BaseClass -  excel closed 
+[INFO ] 2022-09-14 09:54:56.807 [main] BaseClass -  excel is opened 
+[INFO ] 2022-09-14 09:54:58.928 [main] BaseClass -  browser launched 
+[INFO ] 2022-09-14 09:55:08.303 [main] BaseClass -  browser is closed 
+[INFO ] 2022-09-14 09:55:08.617 [main] BaseClass -  excel closed 
+[INFO ] 2022-09-14 09:55:46.915 [main] BaseClass -  excel is opened 
+[INFO ] 2022-09-14 09:55:49.278 [main] BaseClass -  browser launched 
+[INFO ] 2022-09-14 09:56:14.632 [main] BaseClass - size is  9size is validated 
+[INFO ] 2022-09-14 09:56:14.632 [main] BaseClass - Test script is passed
+[INFO ] 2022-09-14 09:56:15.063 [main] BaseClass -  browser is closed 
+[INFO ] 2022-09-14 09:56:15.337 [main] BaseClass -  excel closed 

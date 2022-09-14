@@ -68,13 +68,12 @@ public class DiamondRingsPage {
 	
 	public void selectprice() {
 		act.moveToElement(priceLink).perform();
-		String expprice=selectPriceLink.getText().replace(" (126)", "");
-		
+		String expprice=selectPriceLink.getText().substring(0, 23);
 		act.moveToElement(selectPriceLink).click().perform();
 		wait.until(ExpectedConditions.elementToBeClickable(validatePrice));
 		String price=validatePrice.getText();
-	
-//		Assert.assertEquals(expprice, price);
+	System.out.println(expprice+" "+price);
+		Assert.assertEquals(expprice, price);
 
 	}
 	
@@ -87,19 +86,19 @@ public class DiamondRingsPage {
 	}
 	public void selectGender() {
 		act.moveToElement(genderLink).perform();
-		String expgender=selectGenderLink.getText().replace(" (126)","");
+		String expgender=selectGenderLink.getText().substring(0, 5);
 		act.moveToElement(selectGenderLink).click().perform();
 		wait.until(ExpectedConditions.elementToBeClickable(validateGender));
-//		Assert.assertEquals(expgender, validateGender.getText());
+		Assert.assertEquals(expgender, validateGender.getText());
 
 		}
 	
 	public void selectGoldPurity() {
 		act.moveToElement(goldpurityLink).perform();
-		String expGold=selectGoldpurityLink.getText().replace(" (1274)", "");
+		String expGold=selectGoldpurityLink.getText().substring(0, 3);
 		act.moveToElement(selectGoldpurityLink).click().perform();
 		wait.until(ExpectedConditions.elementToBeClickable(validgoldpurity));
-//		Assert.assertEquals(expGold, validgoldpurity.getText());
+		Assert.assertEquals(expGold, validgoldpurity.getText());
 
 	}
 	public void selectOffer() {
