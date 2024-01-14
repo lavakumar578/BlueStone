@@ -88,15 +88,15 @@ public class XlsxUtility {
 	{
 		Sheet sh = book.getSheet(sheetName);
 		String[][] arr=new String[sh.getLastRowNum()][sh.getRow(0).getLastCellNum()];
-		for(int i=0;i<sh.getLastRowNum();i++)
-		
-		{
-			for(int j=0;j<sh.getRow(i).getLastCellNum();j++)
-			{
-				arr[i][j]=sh.getRow(i+1).getCell(j).getStringCellValue();
-			}
-		
-		}
+//		for(int i=0;i<sh.getLastRowNum();i++)
+//		
+//		{
+//			for(int j=0;j<sh.getRow(i).getLastCellNum();j++)
+//			{
+//				arr[i][j]=sh.getRow(i+1).getCell(j).getStringCellValue();
+//			}
+//		
+//		}
 		return arr;
 	}
 	
